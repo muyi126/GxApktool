@@ -1,0 +1,3 @@
+[submodule "gxapktool/apktool/Apktool"]
+	path = gxapktool/apktool/Apktool
+	url = https://github.com/muyi126/Apktool.git
