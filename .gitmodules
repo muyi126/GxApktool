@@ -1,3 +1,6 @@
 [submodule "gxapktool/apktool/Apktool"]
 	path = gxapktool/apktool/Apktool
 	url = https://github.com/muyi126/Apktool.git
+[submodule "gxapktool/smali/smali"]
+	path = gxapktool/smali/smali
+	url = https://github.com/muyi126/smali.git
