@@ -35,15 +35,16 @@ buildscript {
 }
 
 subprojects {
+    ext.aspectjVersion = '1.8.0'
     apply plugin: 'aspectj'
 }
 
 // 过滤shaka:lib
-configure(subprojects - project(':gxapktool:src')) {
+configure(subprojects - project(':gxapktool:lib')) {
     dependencies {
-        compile project(':gxapktool:src')
+        compile project(':gxapktool:lib')
         // acj 的全局注入
-        aspectpath files(project(':gxapktool:src').buildDir)
+        aspectpath files(project(':gxapktool:lib').buildDir)
     }
 }
 

@@ -59,7 +59,7 @@ sourceSets {
 }
 
 dependencies {
-    compile project(':shaka:smali'),
+    compile project(':gxapktool:smali'),
             depends.snakeyaml,
             depends.xmlpull,
             depends.guava,

@@ -1,2 +1,6 @@
-rootProject.name = 'GxApktool'
+include 'gxapktool:lib',
+        'gxapktool:cli',
+        'gxapktool:smali',
+        'gxapktool:apktool',
+        'gxapktool:smali:accessorTestGenerator'
 

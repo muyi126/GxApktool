@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gxapktool/apktool/Apktool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gxapktool/smali/smali" vcs="Git" />
   </component>
 </project>
